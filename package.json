@@ -1,0 +1,25 @@
+{
+  "name": "backend_testing_venancio",
+  "version": "1.0.0",
+  "description": "Backend Testing",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js fetch.js methods.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "backend_testing_venancio"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Venancio Manuel Rafael Castillo Ramirez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "helmet": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
